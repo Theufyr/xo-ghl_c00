@@ -1,0 +1,109 @@
+@import "reset.css";
+@font-face {
+  font-family: BadComic; /* set name */
+  src: url(../assets/fonts/BadComic-Regular.ttf); /* url of the font */
+}
+@font-face {
+  font-family: Vibur; /* set name */
+  src: url(../assets/fonts/Vibur-Regular.ttf); /* url of the font */
+}
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #ffbd7f;
+    font-family: BadComic;
+	font-size: 1rem;
+    color: black;
+}
+main {
+    margin: auto;
+    padding: 0 2rem;
+    width: 98%;
+    height: 98%;
+}
+#title_image {
+    margin: 1% auto;
+    width:30%;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #d37d2c ;
+    border-radius: 100% 100% 15% 15%;
+    box-shadow: -0.2rem 0.2rem 6rem #ffead7;
+}
+h1, h2 {
+    font-family: Vibur;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+ul {
+    list-style: url("../assets/images/match_icon.png");
+}
+.center {
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+header, section {
+    margin: 1% auto 0 auto;
+    width: 60%;
+    min-width: 375px;
+    text-align: left;
+}
+header {
+    text-align: center;
+}
+button {
+    margin: 0 0.5rem 0 0;
+    padding: 0.5rem 1rem;
+	font-size: 0.7rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background:  linear-gradient(-155deg, #d37d2c, #703b09);
+    box-shadow: -1px 1px 3px #ffead7;
+    cursor: pointer;
+}
+button:hover {
+    color: black;
+    background:  linear-gradient(-155deg, #d37d2c, #ffead7);
+    box-shadow: -1px 1px 3px #703b09;
+}
+#choose {
+    margin: 0 0.5rem 0 0;
+}
+#gamers_choice {
+    margin: 0 0.5rem 0 0;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+    background:  #ffead7;
+    box-shadow: -1px 1px 3px #703b09;
+    cursor: pointer;
+}
+#gamers_nb, #matches_left, #matches_choice {
+    margin: 0 0.5rem 0 0;
+    padding: 0.2rem 1rem;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background:  linear-gradient(-155deg, #d37d2c, #ffead7);
+    box-shadow: -1px 1px 3px #703b09;
+}
+#choose, #gamers_nb, input, #game_start {
+    margin-top: 0.5rem;
+}
+#matches_display {
+    height: 60%;
+}
+.match_display {
+    height: 4rem;
+}

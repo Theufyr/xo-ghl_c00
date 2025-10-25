@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[GHL] [C00] Exercices individuels - Jeu des allumettes</title>
+    <link rel="stylesheet" href="styles/index.css"/>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <img id="title_image" src="assets/images/matches.jpg" alt="Tas d'allumettes">
+            <h1>Jeu des allumettes</h1>
+        </header>
+        <section>
+            <h2>Règles du jeu</h2>
+            <div>
+                <ul>
+                    <li>Au départ, il y a un tas de 50 allumettes.</li>
+                    <li>Chacun à son tour, les joueurs ôtent obligatoirement entre 1 et 6 allumettes.</li>
+                    <li>Celui qui ôte la dernière allumette gagne.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Nouvelle partie</h2>
+                <div class="center">
+                    <div id="choose">Choisissez le nombre de joueurs</div>
+                    <div id="gamers_nb">2</div>
+                    <input
+                    id="gamers_choice"
+                    type="range"
+                    name="Nombre de joueurs"
+                    step="1"
+                    min="2"
+                    max="8"
+                    value="2">
+                    </input>
+                    <button id="game_start">Lancer une partie</button>
+                </div>
+        </section>
+        <section id="game">
+            <h2>Jeu</h2>
+            <div><span id="matches_left">50</span> allumettes restantes</div>
+            <div>C'est au tour du joueur n°<span id="gamer_round">1</span></div>
+            <div class="center">
+                <button id="matches_decrement"><</button>
+                <div id="matches_choice">1</div>
+                <button id="matches_increment">></button>
+                <button id="matches_remove">Enlever</button>
+            </div>
+            <div id="matches_display" class="center"></div>
+        </section>
+    </main>
+    <footer>
+        <img id="title_image" src="assets/images/matches.jpg" alt="Tas d'allumettes">
+        <h1>Jeu des allumettes</h1>
+        <h2>Bravo !</h2>
+        <div id="game_winner"></div>
+        <button id="game_result">Yay !</button>
+    </footer>
+</body>
+</html>
