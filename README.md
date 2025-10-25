@@ -13,3 +13,5 @@
 
 
 ## 📔 Exercices
+
+[Jeu des allumettes](https://github.com/Theufyr/xo-ghl_c00/tree/main/allumettes "Jeu des allumettes")
