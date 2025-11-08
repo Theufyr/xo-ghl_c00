@@ -1,0 +1,58 @@
+@import "reset.css";
+html {
+    font-size: 14px;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: rgba(171, 174, 172, 0.711);
+}
+#encode, #decode {
+    display: flex;
+}
+h1, h2 {
+    margin: 1rem 1rem 0 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+p {
+    display: block;
+    max-width: 13rem;
+    margin: 0 1rem;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+#encode div, #decode div, input {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+}
+input {
+    min-width: 13rem;
+}
+#encode > div, #decode > div, #translation {
+    border-radius: 0.5rem;
+    background-color: rgba(91, 131, 101, 0.571);
+}
+#decode > div, #decyphering {
+    border-radius: 0.5rem;
+    background-color: rgba(91, 106, 131, 0.571);
+}
+#encode > div, #decode > div {
+    box-shadow: -0.1rem 0.1rem 0.5rem rgba(164,126,248, 0.6);
+}
+input {
+    background-color: rgba(241, 243, 242, 0.571);
+    border-radius: 0.5rem;
+    outline: none;
+}
+#translation, #decyphering {
+    display: block;
+    min-width: 13rem;
+    max-width: 25rem;
+    min-height: 2.5rem;
+    color: white;
+}

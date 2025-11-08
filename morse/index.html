@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parlez-vous le morse ?</title>
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <script defer src="src/js/main.js" type="module"></script>
+  </head>
+  <body>
+    <h1>Parlez-vous le morse ?</h1>
+    <div id="encode">
+      <div>
+        <h2>Écrivez votre message :</h2>
+        <input id="message" type="text"></input>
+      </div>
+      <div>
+        <h2>Traduction en morse :</h2>
+        <div id="translation"></div>
+      </div>
+    </div>
+    <div id="decode">
+      <div>
+        <h2>Écrivez votre message :</h2>
+        <input id="morse" type="text"></input>
+        <p>Séparer les caractères de Morse par un espace et les mots par un slash, par exemple :</p>
+        <p>H e l l o , / w o r l d</p>
+      </div>
+      <div>
+        <h2>Décryptage :</h2>
+        <div id="decyphering"></div>
+      </div>
+    </div>
+  </body>
+</html>

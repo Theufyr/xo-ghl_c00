@@ -11,7 +11,11 @@
 
 [Jeu des allumettes](https://moodle.adatechschool.fr/mod/assign/view.php?id=18906 "Jeu des allumettes")
 
+[Parlez-vous le morse ?](https://moodle.adatechschool.fr/mod/assign/view.php?id=18907 "Parlez-vous le morse ?")
+
 
 ## 📔 Exercices
 
 [Jeu des allumettes](https://github.com/Theufyr/xo-ghl_c00/tree/main/allumettes "Jeu des allumettes")
+
+[Parlez-vous le morse ?](https://github.com/Theufyr/xo-ghl_c00/tree/main/morse "Parlez-vous le morse ?")
