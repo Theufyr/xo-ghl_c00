@@ -1,0 +1,1 @@
+https://github.com/adatechschool/Exercices_individuels_Module_1/blob/main/06_jouons_avec_les_palindromes.md

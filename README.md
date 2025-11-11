@@ -13,6 +13,8 @@
 
 [Parlez-vous le morse ?](https://moodle.adatechschool.fr/mod/assign/view.php?id=18907 "Parlez-vous le morse ?")
 
+[Jouons avec les palindromes](https://moodle.adatechschool.fr/mod/assign/view.php?id=18908 "Jouons avec les palindromes")
+
 
 ## 📔 Exercices
 
@@ -21,3 +23,5 @@ _[version déployée](https://allumettes.netlify.app/ "Jeu des allumettes")_
 
 [Parlez-vous le morse ?](https://github.com/Theufyr/xo-ghl_c00/tree/main/morse "Parlez-vous le morse ?")
 _[version déployée](https://morse-eosin.vercel.app/ "Parlez-vous le morse ?")_
+
+[Jouons avec les palindromes](https://github.com/Theufyr/xo-ghl_c00/tree/main/palindromes "Jouons avec les palindromes")
