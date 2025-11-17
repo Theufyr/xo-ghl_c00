@@ -11,8 +11,10 @@
     <h1>Mes citations</h1>
     <h2>Gestionnaire de citations en ligne</h2>
     <h3 id="count">0 citation</h3>
+    <button type="submit" id="clear_button">Effacer les citations</button>
     <hr>
     <form action="" method="post" id="form">
+        <div id="error">Tous les champs doivent être remplis.</div>
         <label for="author">Auteur(e) de la citation :</label>
         <input type="text" name="author" id="input_author">
         <label for="quote">Citation :</label>
@@ -20,10 +22,6 @@
         <button type="submit" id="form_button">Envoyer</button>
     </form>
     <div id="quote-list">
-        <div class="quote">
-            <p class="text">"On ne naît pas femme, on le devient."</p>
-            <p class="author">Simone de Beauvoir</p>
-        </div>
     </div>
 </body>
 </html>
