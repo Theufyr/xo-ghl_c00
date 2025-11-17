@@ -75,7 +75,7 @@ errorMessage.style.visibility = "hidden";
 
 quotesDisplay();
 
-document.getElementById("form_button").addEventListener('click', (event) => {
+document.getElementById("form").addEventListener('submit', (event) => {
         event.preventDefault();
         const quoteInput = document.getElementById("input_quote").value;
         const authorInput = document.getElementById("input_author").value;

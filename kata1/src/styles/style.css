@@ -74,9 +74,10 @@ button {
 #quote-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .quote {
-  width: 40%;
+  width: 46%;
   margin: 0.3rem;
   padding: 0.1rem 0.3rem;
   color:#424719;
@@ -88,6 +89,7 @@ button {
   width: 100%;
 }
 .author {
+  font-weight: bold;
   text-align: right;
 }
 
