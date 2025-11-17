@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kata #1</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <script defer src="src/js/script.js"></script>
 </head>
 <body>
-    
+    <h1>Mes citations</h1>
+    <h2>Gestionnaire de citations en ligne</h2>
+    <h3 id="count">0 citation</h3>
+    <hr>
+    <div id="actions">
+        <form action="" method="post" id="form">
+            <div id="error">Tous les champs doivent être remplis.</div>
+            <label for="input_author">Auteur(e) de la citation :</label>
+            <input type="text" name="author" id="input_author">
+            <label for="input_quote">Citation :</label>
+            <input type="text" name="quote" id="input_quote">
+            <button type="submit">Envoyer</button>
+            <button type="button" id="clear_button">Effacer les citations</button>
+        </form>
+    </div>
+    <div id="quote-list">
+    </div>
 </body>
 </html>
