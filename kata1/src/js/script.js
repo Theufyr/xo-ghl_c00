@@ -47,7 +47,7 @@ function addQuote(quote, author) {
     quoteDisplay.appendChild(pQuote);
 
     const pAuthor = document.createElement("p");
-    pAuthor.className = "text";
+    pAuthor.className = "author";
     pAuthor.textContent = author;
     quoteDisplay.appendChild(pAuthor);
 
