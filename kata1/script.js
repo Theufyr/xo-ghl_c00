@@ -1,15 +1,27 @@
+quoteCount = 0;
+
 function addQuote(quote, author) {
     const quoteDisplay = document.createElement("div");
     quoteDisplay.className = "quote";
+
     const pQuote = document.createElement("p");
     pQuote.className = "text";
     pQuote.textContent = `"${quote}"`;
     quoteDisplay.appendChild(pQuote);
+
     const pAuthor = document.createElement("p");
     pAuthor.className = "text";
     pAuthor.textContent = author;
     quoteDisplay.appendChild(pAuthor);
+
     document.getElementById("quote-list").appendChild(quoteDisplay);
+
+    quoteCount += 1;
+    pluralQuote = (quoteCount > 1) ? "s" : "";
+    document.getElementById("count").innerText = quoteCount + " citation" + pluralQuote;
+
+    document.getElementById("input_quote").value = "";
+    document.getElementById("input_author").value = "";
 }
 
 document.getElementById("form_button").addEventListener('click', (event) => {
