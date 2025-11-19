@@ -2,7 +2,33 @@
 function isValidDate(date) {
     const dateInfos = date.split("/");
     return !isNaN(new Date(`${dateInfos[2]}/${dateInfos[1]}/${dateInfos[0]}`));
+//    // alternative :
+//    const regex = /^(\d{2})\/(\d{2})\/(\d{4})$/;
+//    const match = date.match(regex);
+//    if (!match) {
+//        return false;
+//    }
+//    // si date = "03/04/2001"; alors match[0] = "03/04/2001";
+//    const day = match[1];
+//    const month = match[2];
+//    const year = match[3];
+//    if (year < 1000 || year > 9999) {
+//        return false;
+//    }
+//    if (month < 1 || month > 12) {
+//        return false;
+//    }
+//    if (!maxDaysInMonth(day, month)) {
+//        return false;
+//    }
+//    return true;
 }
+// // alternative :
+// function maxDaysInMonth(day, month) {
+//    const dayInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+//    const dayInCheckMonth = dayInMonth[month - 1];
+//    return day <= dayInCheckMonth;
+// }
 console.log("Étape 1");
 console.log("03/04/2001", isValidDate("03/04/2001"));
 console.log("03/14/2001", isValidDate("03/14/2001"));
@@ -21,7 +47,11 @@ function isPalindrome(text, date) {
     const firstPart    = textSplit.splice(0, midText).reverse().join("");
     const secondPart   = textSplit.join("");
     checkReturn = (firstPart == secondPart) ? true : false;
-    return checkReturn;
+//    // alternative
+//    const onlyDigits = (date) ? text.replace("/", "") : text;
+//    const reversed = onlyDigits.split("").reverse().join("");
+//    return onlyDigits === reversed;
+//    return checkReturn;
 }
 console.log("Étape 2");
 console.log("11/02/2011", isPalindrome("11/02/2011", true));
